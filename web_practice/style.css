@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+body {
+  background-color: #212529;
+  height: 100%;
+}
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  background-color: #212529;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #6fffe9;
+}
+.left {
+  display: flex;
+  color: black;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.left > p {
+  color: #6fffe9;
+  margin-top: 10px;
+}
+.left > p:hover {
+  color: white;
+}
+.left > img {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+  transition: 1s;
+}
+.left > img:hover {
+  transform: rotate(360deg);
+}
+
+.right {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: 70px;
+  font-size: 20px;
+  font-family: "roboto", serif;
+}
+.right > a {
+  padding: 15px;
+  text-decoration: none;
+  color: #6fffe9;
+  font-size: 20px;
+}
+.right > a:hover {
+  text-decoration: underline;
+}
+.HOME-PAGE {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.left-text {
+  margin-top: 230px;
+  margin-left: 200px;
+}
+.first-line {
+  display: flex;
+}
+.first-p {
+  color: white;
+  font-size: 30px;
+}
+.second-p {
+  color: #6fffe9;
+  margin-left: 10px;
+  font-size: 30px;
+}
+.third-p {
+  color: #6fffe9;
+  font-size: 70px;
+}
+.fourth-p {
+  color: white;
+  font-size: 25px;
+}
+.right-text {
+  margin-left: 50px;
+  margin-top: 230px;
+}
+.right-text > img {
+  height: 150px;
+  width: 150px;
+  transition: 1s;
+}
+.right-text > img:hover {
+  transform: rotate(360deg);
+}
+.animation-1 {
+  width: 150px;
+  height: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: animate1;
+}
+@keyframes animate1 {
+  0% {
+    left: 0px;
+    right: 0px;
+  }
+  50% {
+    left: 190px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+.animation-2 {
+  width: 150px;
+  height: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: animate2;
+}
+@keyframes animate2 {
+  0% {
+    left: 350px;
+    right: 0px;
+  }
+  50% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 350px;
+    top: 0px;
+  }
+}
+.button1 {
+  margin-top: 30px;
+  height: 30px;
+  width: 75px;
+  border-radius: 10px;
+  background-color: #6fffe9;
+  border: none;
+  padding: 10px;
+}
+.button1 > a {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin-top: 6px;
+  margin-left: 8px;
+  font-family: monospace;
+}
+.ABOUT-PAGE {
+  height: 100vh;
+  width: 100%;
+}
+.ABOUT-PAGE {
+  display: flex;
+}
+.ABOUT-PAGE > P {
+  color: white;
+}
+
+.interest-pic > img {
+  height: 330px;
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 200px;
+  margin-left: 250px;
+  box-shadow: 1px 1px 7px white;
+}
+.interest-text {
+  margin-top: 220px;
+  margin-left: 50px;
+}
+.interest-text > p {
+  color: white;
+  font-size: 35px;
+}
+.box {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  color: #6fffe9;
+  height: 200px;
+  width: 600px;
+  margin-top: 20px;
+}
+.box > p {
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.animation-3 {
+  width: 150px;
+  height: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color: #6fffe9;
+  position: relative;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: animate3;
+}
+@keyframes animate3 {
+  0% {
+    left: 0px;
+    right: 0px;
+  }
+  50% {
+    left: 450px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+.animation-4 {
+  width: 5px;
+  height: 150px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color: #6fffe9;
+  position: relative;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: animate4;
+}
+@keyframes animate4 {
+  0% {
+    left: 240px;
+    top: 200px;
+  }
+  50% {
+    left: 240px;
+    top: 380px;
+  }
+  100% {
+    left: 240px;
+    top: 200px;
+  }
+}
+.INTEREST-PAGE {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.interestAlign {
+  width: 2px;
+  height: 470px;
+  margin-top: 130px;
+  margin-left: 60px;
+  background-color: #6fffe9;
+  border-radius: 10px;
+}
+.interest-left {
+  margin-top: 300px;
+  margin-left: 270px;
+}
+.interest-left > p {
+  color: white;
+  font-size: 40px;
+}
+.first-text {
+  color: white;
+  margin-top: 110px;
+  margin-left: 25px;
+  font-size: 40px;
+}
+.line1 {
+  width: 120px;
+  height: 3px;
+  background-color: #6fffe9;
+  border-radius: 10px;
+}
+.second-text {
+  color: white;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 40px;
+}
+.line2 {
+  width: 230px;
+  height: 3px;
+  background-color: #6fffe9;
+  border-radius: 10px;
+  position: relative;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: animate5;
+}
+@keyframes animate5 {
+  0% {
+    left: 0px;
+    right: 0px;
+  }
+  50% {
+    left: 400px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+.onlinegamesContext {
+  margin-top: 18px;
+  color: white;
+  font-size: 18px;
+}
+.third-text {
+  color: white;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 40px;
+}
+.line3 {
+  width: 230px;
+  height: 3px;
+  background-color: #6fffe9;
+  border-radius: 10px;
+  position: relative;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: animate6;
+}
+@keyframes animate6 {
+  0% {
+    left: 0px;
+    right: 0px;
+  }
+  50% {
+    left: 400px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+.animeContext {
+  margin-top: 18px;
+  color: white;
+  font-size: 18px;
+}
+.list {
+  display: flex;
+}
+ul.a {
+  list-style-type: circle;
+  margin-top: 5px;
+  margin-left: 50px;
+  font-size: 15px;
+}
+ul.b {
+  list-style-type: circle;
+  margin-top: 5px;
+  margin-left: 80px;
+  font-size: 15px;
+}
+.CONTACT-PAGE {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.contactRightText {
+  color: white;
+  font-size: 30px;
+  margin-top: 130px;
+  margin-left: 50px;
+}
+.contactPic {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.contactFirstPic {
+  display: flex;
+  margin-left: 20px;
+}
+.contactFacebook > img {
+  height: 150px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.contactInstagram > img {
+  height: 190px;
+}
+.contactEmail > img {
+  height: 190px;
+  margin-right: 30px;
+}
+.contactTwitter > img {
+  height: 150px;
+  margin-bottom: 20px;
+}
+.contactBox {
+  display: block;
+  height: 350px;
+  width: 430px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  margin-top: 200px;
+  margin-left: 230px;
+  padding: 20px;
+}
+.contactBoxText {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.contactInput {
+  display: grid;
+  place-items: center;
+}
+
+.contactInput > input {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.contactInput > .second-input {
+  width: 320px;
+  height: 100px;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  display: block;
+  resize: none;
+  margin-top: 10px;
+  border: none;
+}
+.contactInput > .interest-button {
+  width: 120px;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 1px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  background-color: black;
+}
+.contactInput > .interest-button:hover {
+  background-color: white;
+  color: black;
+}
