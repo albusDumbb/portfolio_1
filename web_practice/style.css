@@ -8,16 +8,16 @@
   display: none; /* for Chrome, Safari, and Opera */
 }
 body {
-  background-color: #212529;
+  background-color: #000000;
   height: 100%;
 }
 nav {
   position: fixed;
   display: flex;
   width: 100%;
-  background-color: #212529;
+  background-color: #000000;
   padding: 20px;
-  box-shadow: 0px 0px 10px #6fffe9;
+  box-shadow: 0px 0px 10px #00fff5;
 }
 .left {
   display: flex;
@@ -26,7 +26,7 @@ nav {
   margin-left: 30px;
 }
 .left > p {
-  color: #6fffe9;
+  color: #00fff5;
   margin-top: 10px;
 }
 .left > p:hover {
@@ -52,7 +52,7 @@ nav {
 .right > a {
   padding: 15px;
   text-decoration: none;
-  color: #6fffe9;
+  color: #00fff5;
   font-size: 20px;
 }
 .right > a:hover {
@@ -75,12 +75,12 @@ nav {
   font-size: 30px;
 }
 .second-p {
-  color: #6fffe9;
+  color: #00fff5;
   margin-left: 10px;
   font-size: 30px;
 }
 .third-p {
-  color: #6fffe9;
+  color: #00fff5;
   font-size: 70px;
 }
 .fourth-p {
@@ -155,7 +155,7 @@ nav {
   height: 30px;
   width: 75px;
   border-radius: 10px;
-  background-color: #6fffe9;
+  background-color: #00fff5;
   border: none;
   padding: 10px;
 }
@@ -199,7 +199,7 @@ nav {
   border-style: solid;
   border-width: 2px;
   border-radius: 10px;
-  color: #6fffe9;
+  color: #00fff5;
   height: 200px;
   width: 600px;
   margin-top: 20px;
@@ -214,7 +214,7 @@ nav {
   height: 5px;
   margin-bottom: 5px;
   border-radius: 10px;
-  background-color: #6fffe9;
+  background-color: #00fff5;
   position: relative;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -239,7 +239,7 @@ nav {
   height: 150px;
   margin-bottom: 5px;
   border-radius: 10px;
-  background-color: #6fffe9;
+  background-color: #00fff5;
   position: relative;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -269,7 +269,7 @@ nav {
   height: 470px;
   margin-top: 130px;
   margin-left: 60px;
-  background-color: #6fffe9;
+  background-color: #00fff5;
   border-radius: 10px;
 }
 .interest-left {
@@ -289,7 +289,7 @@ nav {
 .line1 {
   width: 120px;
   height: 3px;
-  background-color: #6fffe9;
+  background-color: #00fff5;
   border-radius: 10px;
 }
 .second-text {
@@ -301,7 +301,7 @@ nav {
 .line2 {
   width: 230px;
   height: 3px;
-  background-color: #6fffe9;
+  background-color: #00fff5;
   border-radius: 10px;
   position: relative;
   animation-duration: 5s;
@@ -336,7 +336,7 @@ nav {
 .line3 {
   width: 230px;
   height: 3px;
-  background-color: #6fffe9;
+  background-color: #00fff5;
   border-radius: 10px;
   position: relative;
   animation-duration: 5s;
